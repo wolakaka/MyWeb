@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "Computer Science Student", "Web Developer"];
   const period = 2000;
 
   useEffect(() => {
@@ -56,8 +56,9 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Judy`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h1>{`Hi! I'm Yutao Zhu`} </h1>
+                <h2><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Computer Science Student", "Web Developer" ]'><span className="wrap">{text}</span></span></h2>
+                  <p>3rd year computing science student currently study at Simon Fraser University. Looking for a co-op opportunity, preferrablly start from September, 2023. I am available for a 4-months term, 8-months term, and 12-month term. </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
