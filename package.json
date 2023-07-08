@@ -1,5 +1,5 @@
 {
-  "name": "personal-portfolio",
+  "name": "myweb",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,6 +26,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -47,5 +48,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolakaka/myweb.git"
+  },
+  "author": "yutao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolakaka/myweb/issues"
+  },
+  "homepage": "https://github.com/wolakaka/myweb#readme"
 }
