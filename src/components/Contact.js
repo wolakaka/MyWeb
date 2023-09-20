@@ -11,7 +11,7 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_2qeqyb2', 'template_34aa4mz', form.current, 'r51eDCVK5vg0Xo1QI')
+    emailjs.sendForm('service_k78gjy4', 'template_34aa4mz', form.current, '_OdWTnDSc7QEKEVD7')
       .then((result) => {
           console.log(result.text);
           alert("Message sent successfully");
